@@ -1,7 +1,7 @@
 <div align="left">
 
 
-# Plum Programming Language
+# 🍑 Plum Programming Language
 <p>
   <strong>A lightweight programming language built from scratch with Python.</strong>
 </p>
