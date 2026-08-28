@@ -1,9 +1,9 @@
 <div align="left">
-
+### A lightweight programming language built from scratch with Python.
 # 🍑 Plum Programming Language
 
 <img src="./cover.png" alt="Plum Programming Language" width="1700"/>
-### A lightweight programming language built from scratch with Python.
+
 <p>
   
   <strong>Learn. Build. Experiment. Create.</strong>
