@@ -4,7 +4,7 @@
 
 ### A lightweight programming language built from scratch with Python.
 
-<img src="./cover" alt="Plum Programming Language" width="1700"/>
+<img src="./cover.png" alt="Plum Programming Language" width="1700"/>
 
 <p>
   <strong>Learn. Build. Experiment. Create.</strong>
