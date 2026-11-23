@@ -44,25 +44,32 @@ app.listen(8080)
 
 | Repository | Contents |
 |---|---|
-| [plumlang](https://github.com/plumlang/plumlang) | The language: compiler, virtual machine, standard library, specification, and tests. The main repository. |
-| [plum.elixpo](https://github.com/plumlang/plum.elixpo) | The website at [plum.elixpo.com](https://plum.elixpo.com): documentation, guides, and the browser playground. |
-| [branding](https://github.com/plumlang/branding) | Logos, icons, colours, and the VS Code extension. |
+| [plumlang](https://github.com/plumlang/plumlang) | The language: compiler, virtual machine, standard library, language server, specification, and tests. The main repository. |
+| [plum.elixpo](https://github.com/plumlang/plum.elixpo) | The website at [plum.elixpo.com](https://plum.elixpo.com): documentation, packages, and the browser playground. |
+| [registry](https://github.com/plumlang/registry) | Orchard, the package index behind `plum add` and `plum publish`. |
+| [branding](https://github.com/plumlang/branding) | Logos, icons, colours, and the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=plum-lang.plum-lang). |
+| [tree-sitter-plum](https://github.com/plumlang/tree-sitter-plum) | The Tree-sitter grammar, for highlighting in Neovim, Helix, Zed and other editors. |
+| [setup-plum](https://github.com/plumlang/setup-plum) | A GitHub Action that installs `plum` in CI. |
+| [homebrew-tap](https://github.com/plumlang/homebrew-tap) | The Homebrew formula: `brew install plumlang/tap/plum`. |
+| [plum-lang](https://github.com/plumlang/plum-lang) | An earlier tree-walking interpreter in Python, kept as a learning project. |
 
-The three are kept in sync from the main repository: shared CI, deployment
-and release workflows, and the documentation the website publishes.
+Shared CI, issue forms and the Elixpo workflows are kept in sync from the
+main repository.
 
-## Releases
+## Install
 
-Plumlang is in **alpha**. The language and its standard library are complete
-for the 1.0 scope; tooling (formatter, REPL, editor support, playground) and
-release packaging are in progress.
+Plumlang **2.1.4** is the current release: eight builds for Linux, macOS and
+Windows, with checksums and build attestations on
+[Releases](https://github.com/plumlang/plumlang/releases).
 
-| Version | Status |
-|---|---|
-| 1.0 | Planned. Specification frozen for 1.x compatibility, signed builds for every platform. Tracked in [plumlang#35](https://github.com/plumlang/plumlang/issues/35). |
-| Pre-releases | Built from `main`; see [Releases](https://github.com/plumlang/plumlang/releases). Installers (`install.sh`, `install.ps1`, Homebrew, winget) arrive with [plumlang#33](https://github.com/plumlang/plumlang/issues/33). |
+```bash
+curl -fsSL https://plum.elixpo.com/install.sh | sh          # Linux and macOS
+irm https://plum.elixpo.com/install.ps1 | iex               # Windows (PowerShell)
+brew install plumlang/tap/plum                              # Homebrew
+```
 
-Until then, build from source in a few seconds:
+Or try it without installing anything in the
+[playground](https://plum.elixpo.com/playground/). To build from source:
 
 ```bash
 git clone https://github.com/plumlang/plumlang
@@ -79,11 +86,13 @@ make
 
 ## Licence
 
-Plumlang is source-available under the
-[Plumlang Commercial License 1.0](https://github.com/plumlang/plumlang/blob/main/LICENSE):
-free for personal, educational, research and other non-commercial use, and to
-evaluate for 60 days. Commercial use needs a licence: **hello@elixpo.com**.
-Programs you write in Plumlang are yours.
+Plumlang is licensed under the
+[Apache License 2.0](https://github.com/plumlang/plumlang/blob/main/LICENSE):
+free to use, change and ship, commercially or not. The
+[Plumlang Commercial License](https://github.com/plumlang/plumlang/blob/main/LICENSES/preferred/LicenseRef-Plumlang-Commercial-1.0)
+is an option for those who want a written agreement with Elixpo, for
+warranty, support or indemnity: **hello@elixpo.com**. Programs you write in
+Plumlang are yours.
 
 ---
 
