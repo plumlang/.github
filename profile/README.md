@@ -47,8 +47,11 @@ app.listen(8080)
 | [plumlang](https://github.com/plumlang/plumlang) | The language: compiler, virtual machine, standard library, language server, specification, and tests. The main repository. |
 | [plum.elixpo](https://github.com/plumlang/plum.elixpo) | The website at [plum.elixpo.com](https://plum.elixpo.com): documentation, packages, and the browser playground. |
 | [registry](https://github.com/plumlang/registry) | Orchard, the package index behind `plum add` and `plum publish`. |
-| [branding](https://github.com/plumlang/branding) | Logos, icons, colours, and the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=plum-lang.plum-lang). |
+| [branding](https://github.com/plumlang/branding) | Logos, icons, colours, and the VS Code extension. |
 | [tree-sitter-plum](https://github.com/plumlang/tree-sitter-plum) | The Tree-sitter grammar, for highlighting in Neovim, Helix, Zed and other editors. |
+| [zed-plum](https://github.com/plumlang/zed-plum) | The Zed extension. |
+| [highlightjs-plum](https://github.com/plumlang/highlightjs-plum) | highlight.js support, for web pages and docs sites. |
+| [pygments-plum](https://github.com/plumlang/pygments-plum) | The Pygments lexer, for Sphinx, MkDocs and Jupyter. |
 | [setup-plum](https://github.com/plumlang/setup-plum) | A GitHub Action that installs `plum` in CI. |
 | [homebrew-tap](https://github.com/plumlang/homebrew-tap) | The Homebrew formula: `brew install plumlang/tap/plum`. |
 | [plum-lang](https://github.com/plumlang/plum-lang) | An earlier tree-walking interpreter in Python, kept as a learning project. |
@@ -77,6 +80,20 @@ cd plumlang
 make
 ./plum run examples/http/hello.plum
 ```
+
+## Packages
+
+| Package | Where |
+|---|---|
+| Plumlang for VS Code | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=plum-lang.plum-lang), [Open VSX](https://open-vsx.org/extension/plum-lang/plum-lang) |
+| `@plumlang/tree-sitter-plum` | [npm](https://www.npmjs.com/package/@plumlang/tree-sitter-plum) |
+| `@plumlang/highlightjs-plum` | [npm](https://www.npmjs.com/package/@plumlang/highlightjs-plum), [jsDelivr](https://cdn.jsdelivr.net/npm/@plumlang/highlightjs-plum/dist/plum.min.js) |
+| `pygments-plum` | [PyPI](https://pypi.org/project/pygments-plum/) |
+| `@plumlang/plumlang` (WebAssembly, from 2.2.0) | [npm](https://www.npmjs.com/package/@plumlang/plumlang) |
+| `plum` | [Homebrew tap](https://github.com/plumlang/homebrew-tap): `brew install plumlang/tap/plum` |
+| `setup-plum` | GitHub Actions: `uses: plumlang/setup-plum@v1` |
+
+Editors and integrations, with setup steps: [plum.elixpo.com/docs/ecosystem](https://plum.elixpo.com/docs/ecosystem/).
 
 ## Get involved
 
