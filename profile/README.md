@@ -108,6 +108,8 @@ make
 
 Editors and integrations, with setup steps: [plum.elixpo.com/docs/ecosystem](https://plum.elixpo.com/docs/ecosystem/).
 
+See Plumlang next to other languages on [Rosetta Code](https://rosettacode.org/wiki/Category:Plumlang), starting with [Hello world](https://rosettacode.org/wiki/Hello_world/Text#Plumlang) and [FizzBuzz](https://rosettacode.org/wiki/FizzBuzz#Plumlang), and on [PLDB](https://pldb.io/concepts/plumlang.html).
+
 ## Get involved
 
 - **Contribute:** read [CONTRIBUTING.md](https://github.com/plumlang/plumlang/blob/main/CONTRIBUTING.md). Issues labelled [good first issue](https://github.com/plumlang/plumlang/issues?q=is%3Aopen+label%3A%22good+first+issue%22) are a good start.
