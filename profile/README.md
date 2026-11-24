@@ -8,28 +8,22 @@
 
 A statically typed, memory-safe programming language written in C, from [Elixpo](https://elixpo.com), built in the open.
 
-[Website](https://plum.elixpo.com) · [Documentation](https://plum.elixpo.com/docs/) · [Playground](https://plum.elixpo.com/playground/) · [Install](https://plum.elixpo.com/docs/install/) · [Language](https://github.com/plumlang/plumlang) · [Roadmap](https://github.com/plumlang/plumlang/issues/36) · [Discussions](https://github.com/plumlang/plumlang/discussions)
-
 </div>
 
 <p align="center">
-  <a href="https://github.com/plumlang/plumlang/actions/workflows/build.yml"><img alt="Build" src="https://img.shields.io/github/actions/workflow/status/plumlang/plumlang/build.yml?branch=main&style=flat-square&label=build"></a>
-  <a href="https://github.com/plumlang/plumlang/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/plumlang/plumlang?style=flat-square&label=release&color=6b3fa0"></a>
-  <a href="https://github.com/plumlang/plumlang/blob/main/LICENSE"><img alt="Licence: Apache-2.0" src="https://img.shields.io/badge/licence-Apache--2.0-6b3fa0?style=flat-square"></a>
-  <a href="https://plum.elixpo.com/docs/"><img alt="Docs" src="https://img.shields.io/badge/docs-plum.elixpo.com-6b3fa0?style=flat-square"></a>
-  <a href="https://plum.elixpo.com/playground/"><img alt="Playground" src="https://img.shields.io/badge/try_it-playground-ff7a59?style=flat-square"></a>
+  <a href="https://plum.elixpo.com"><img alt="Website" src="https://img.shields.io/badge/Website-plum.elixpo.com-6b3fa0?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://plum.elixpo.com/docs/"><img alt="Documentation" src="https://img.shields.io/badge/Docs-read_the_guide-6b3fa0?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
+  <a href="https://plum.elixpo.com/playground/"><img alt="Playground" src="https://img.shields.io/badge/Playground-try_it_now-ff7a59?style=for-the-badge&logo=webassembly&logoColor=white"></a>
+  <a href="https://plum.elixpo.com/docs/install/"><img alt="Install" src="https://img.shields.io/badge/Install-one_command-24292f?style=for-the-badge&logo=gnubash&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=plum-lang.plum-lang"><img alt="VS Code Marketplace" src="https://img.shields.io/visual-studio-marketplace/v/plum-lang.plum-lang?style=flat-square&label=VS%20Code&color=007acc"></a>
-  <a href="https://open-vsx.org/extension/plum-lang/plum-lang"><img alt="Open VSX" src="https://img.shields.io/open-vsx/v/plum-lang/plum-lang?style=flat-square&label=Open%20VSX&color=a60ee5"></a>
-  <a href="https://github.com/plumlang/homebrew-tap"><img alt="Homebrew" src="https://img.shields.io/badge/brew-plumlang%2Ftap%2Fplum-fbb040?style=flat-square"></a>
-  <a href="https://www.npmjs.com/package/@plumlang/tree-sitter-plum"><img alt="tree-sitter-plum on npm" src="https://img.shields.io/npm/v/@plumlang/tree-sitter-plum?style=flat-square&label=tree-sitter&color=cb3837"></a>
-  <a href="https://www.npmjs.com/package/@plumlang/highlightjs-plum"><img alt="highlightjs-plum on npm" src="https://img.shields.io/npm/v/@plumlang/highlightjs-plum?style=flat-square&label=highlight.js&color=cb3837"></a>
-  <a href="https://pypi.org/project/pygments-plum/"><img alt="pygments-plum on PyPI" src="https://img.shields.io/pypi/v/pygments-plum?style=flat-square&label=pygments&color=3775a9"></a>
-  <a href="https://github.com/plumlang/setup-plum"><img alt="setup-plum" src="https://img.shields.io/github/v/release/plumlang/setup-plum?style=flat-square&label=setup-plum&color=2088ff"></a>
+  <a href="https://github.com/plumlang/plumlang/actions/workflows/build.yml"><img alt="Build" src="https://github.com/plumlang/plumlang/actions/workflows/build.yml/badge.svg?branch=main"></a>
+  <a href="https://github.com/plumlang/plumlang/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/plumlang/plumlang?style=flat-square&label=release&color=6b3fa0"></a>
+  <a href="https://github.com/plumlang/plumlang/blob/main/LICENSE"><img alt="Licence: Apache-2.0" src="https://img.shields.io/badge/licence-Apache--2.0-6b3fa0?style=flat-square"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=plum-lang.plum-lang"><img alt="VS Code extension" src="https://img.shields.io/badge/VS_Code-extension-007acc?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xNyAyIDcgMTEgMyA4IDEgOXY2bDIgMSA0LTMgMTAgOSA0LTJWNHoiLz48L3N2Zz4="></a>
+  <a href="https://github.com/plumlang/plumlang/discussions"><img alt="Discussions" src="https://img.shields.io/badge/discussions-join-24292f?style=flat-square&logo=github"></a>
 </p>
-
 
 ---
 
@@ -80,7 +74,7 @@ main repository.
 
 ## Install
 
-Plumlang **2.1.4** is the current release: eight builds for Linux, macOS and
+Plumlang **2.2.0** is the current release: eight builds for Linux, macOS and
 Windows, with checksums and build attestations on
 [Releases](https://github.com/plumlang/plumlang/releases).
 
@@ -108,7 +102,7 @@ make
 | `@plumlang/tree-sitter-plum` | [npm](https://www.npmjs.com/package/@plumlang/tree-sitter-plum) |
 | `@plumlang/highlightjs-plum` | [npm](https://www.npmjs.com/package/@plumlang/highlightjs-plum), [jsDelivr](https://cdn.jsdelivr.net/npm/@plumlang/highlightjs-plum/dist/plum.min.js) |
 | `pygments-plum` | [PyPI](https://pypi.org/project/pygments-plum/) |
-| `@plumlang/plumlang` (WebAssembly, from 2.2.0) | [npm](https://www.npmjs.com/package/@plumlang/plumlang) |
+| `@plumlang/plumlang` (WebAssembly) | [npm](https://www.npmjs.com/package/@plumlang/plumlang) |
 | `plum` | [Homebrew tap](https://github.com/plumlang/homebrew-tap): `brew install plumlang/tap/plum` |
 | `setup-plum` | GitHub Actions: `uses: plumlang/setup-plum@v1` |
 
