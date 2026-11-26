@@ -98,7 +98,8 @@ make
 
 | Package | Where |
 |---|---|
-| Plumlang for VS Code | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=plum-lang.plum-lang), [Open VSX](https://open-vsx.org/extension/plum-lang/plum-lang) |
+| Plumlang for VS Code | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=plum-lang.plum-lang) |
+| Plumlang for VSCodium, Cursor, Windsurf | [Open VSX](https://open-vsx.org/extension/plum-lang/plum-lang) (verified publisher) |
 | `@plumlang/tree-sitter-plum` | [npm](https://www.npmjs.com/package/@plumlang/tree-sitter-plum) |
 | `@plumlang/highlightjs-plum` | [npm](https://www.npmjs.com/package/@plumlang/highlightjs-plum), [jsDelivr](https://cdn.jsdelivr.net/npm/@plumlang/highlightjs-plum/dist/plum.min.js) |
 | `pygments-plum` | [PyPI](https://pypi.org/project/pygments-plum/) |
