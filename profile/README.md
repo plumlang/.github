@@ -74,14 +74,16 @@ main repository.
 
 ## Install
 
-Plumlang **2.2.0** is the current release: eight builds for Linux, macOS and
+Plumlang **2.3.0** is the current release: eight builds for Linux, macOS and
 Windows, with checksums and build attestations on
-[Releases](https://github.com/plumlang/plumlang/releases).
+[Releases](https://github.com/plumlang/plumlang/releases), and a container image on
+[Docker Hub](https://hub.docker.com/r/elixpo/plumlang).
 
 ```bash
 curl -fsSL https://plum.elixpo.com/install.sh | sh          # Linux and macOS
 irm https://plum.elixpo.com/install.ps1 | iex               # Windows (PowerShell)
 brew install plumlang/tap/plum                              # Homebrew
+docker run --rm -v "$PWD":/src elixpo/plumlang run app.plum  # Docker
 ```
 
 Or try it without installing anything in the
@@ -105,6 +107,7 @@ make
 | `pygments-plum` | [PyPI](https://pypi.org/project/pygments-plum/) |
 | `@plumlang/plumlang` (WebAssembly) | [npm](https://www.npmjs.com/package/@plumlang/plumlang) |
 | `plum` | [Homebrew tap](https://github.com/plumlang/homebrew-tap): `brew install plumlang/tap/plum` |
+| `plum` (container) | [Docker Hub](https://hub.docker.com/r/elixpo/plumlang): `elixpo/plumlang`, also `ghcr.io/plumlang/plum` |
 | `setup-plum` | GitHub Actions: `uses: plumlang/setup-plum@v1` |
 
 Editors and integrations, with setup steps: [plum.elixpo.com/docs/ecosystem](https://plum.elixpo.com/docs/ecosystem/).
