@@ -108,7 +108,7 @@ make
 
 Editors and integrations, with setup steps: [plum.elixpo.com/docs/ecosystem](https://plum.elixpo.com/docs/ecosystem/).
 
-See Plumlang next to other languages on [Rosetta Code](https://rosettacode.org/wiki/Category:Plumlang), starting with [Hello world](https://rosettacode.org/wiki/Hello_world/Text#Plumlang) and [FizzBuzz](https://rosettacode.org/wiki/FizzBuzz#Plumlang), and on [PLDB](https://pldb.io/concepts/plumlang.html).
+See Plumlang next to other languages on [Rosetta Code](https://rosettacode.org/wiki/Category:Plumlang), starting with [Hello world](https://rosettacode.org/wiki/Hello_world/Text#Plumlang) and [FizzBuzz](https://rosettacode.org/wiki/FizzBuzz#Plumlang), on [PLDB](https://pldb.io/concepts/plumlang.html), and in Tree-sitter's [list of parsers](https://github.com/tree-sitter/tree-sitter/wiki/List-of-parsers).
 
 ## Get involved
 
